@@ -1,0 +1,87 @@
+/* Обнуление */
+@import "null.css";
+/* ШРИФТИ */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* @font-face{
+	font-family: 'Lato';
+	src:url('../fonts/Lato-Regular.woff2') format(woff2),
+		url('../fonts/Lato-Regular.woff') format(woff);
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Lato';
+	src:url('../fonts/Lato-Bold.woff2') format(woff2),
+		url('../fonts/Lato-Bold.woff') format(woff);
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Lato';
+	src:url('../fonts/Lato-Black.woff2') format(woff2),
+		url('../fonts/Lato-Black.woff') format(woff);
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+} */
+
+body{
+	font-family: 'Lato';
+	font-size: 16px;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+.blog__content {
+	width: 810px;
+	max-width: 100%;
+	margin: 0px auto;
+}
+.blog__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1E212C;
+	margin: 0px 0px 40px 0px;
+}
+
+.blog__img{
+margin: 0px 0px 60px 0px;
+}
+.blog__text {
+}
+.text__bold {
+	margin: 0px 0px 24px 0px;
+}
+.bold {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+}
+.text__normal{
+	margin: 0px 0px 48px 0px;
+	padding: 0px 15px 0px 0px;
+}
+.text__normal p:first-child{
+	padding: 0px 0px 24px 0px;
+}
+.normal {
+	line-height: 1.6;
+	color: #424551;
+}
+.text__citation {
+	padding: 0px 15px 0px 58px;
+}
+.blog__list {
+}
+.list__title {
+}
+.list__item {
+}
+.list__text {
+}
